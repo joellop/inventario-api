@@ -1,0 +1,12 @@
+## .NET
+bin/
+obj/
+**/bin/
+**/obj/
+*.user
+.vs/
+
+## Sensible - no subir
+appsettings.json
+appsettings.*.json
+!appsettings.Example.json
