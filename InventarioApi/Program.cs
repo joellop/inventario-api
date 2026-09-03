@@ -22,8 +22,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AngularApp", policy =>
     {
         policy.WithOrigins(
-            "http://localhost:4200", 
-            "https://inventario-frontend-tau.vercel.app/inventario"
+            "http://localhost:4200",
+            "https://inventario-frontend-tau.vercel.app"
             )
               .AllowAnyMethod()
               .AllowAnyHeader();
